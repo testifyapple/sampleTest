@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- 1 -->
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign in with your AppleConnect</title>
+    <link rel="stylesheet" type="text/css" href="./Sign in with your AppleConnect_files/mp-login_04092015.css">
+    <link rel="stylesheet" type="text/css" href="./Sign in with your AppleConnect_files/login.css">
+    <link rel="stylesheet" type="text/css" href="./Sign in with your AppleConnect_files/appleconnect.css">
+
+
+</head>
+<body>
+
+
+<div id="main" role="main" class="acp-content">
+    <section class="acp-sign-in">
+        <div class="acp-login-container">
+            <h1 class="acp-h1">AppleConnect</h1>
+            <div class="acp-line-img"></div>
+            <p>Sign in to manage your Apple internal accounts.</p>
+            <div class="outer">
+                <div class="inner">
+                    <div class="main">
+
+
+                        <p id="errormsg">
+
+                        </p>
+                        <input type="hidden" id="harvestID" value="none">
+                        <input type="hidden" id="expiryID" value="none">
+
+
+                        <input type="hidden" id="authenticationID" value="true">
+
+
+                        <form id="command" name="form2"
+                              method="post">
+                            <input id="iForgotNewWindowVar" name="openiForgotInNewWindow" type="hidden" value="false">
+                            <input id="fdcBrowserData" name="fdcBrowserData" type="hidden" value="">
+                            <div class="pair">
+                                <div class="module">
+                                    <label for="accountname">AppleConnect account name</label>
+                                    <input id="accountname" name="appleId" autocorrect="off" spellcheck="false"
+                                           type="text" autocapitalize="off" aria-label="Apple ID" value="" size="30"
+                                           maxlength="128" autocomplete="off">
+                                </div>
+                                <div class="module">
+                                    <label for="accountpassword">Password</label>
+
+                                    <div class="buttonfield">
+                                        <input id="accountpassword" name="accountPassword" autocorrect="off"
+                                               oncopy="return false;" oncut="return false;" autocapitalize="off"
+                                               type="password" value="" size="30" autocomplete="off">
+
+                                        <input id="continueFieldbutton" type="image" value="" alt="Sign In"
+                                               aria-label="Sign In" onclick="showDiv();return false;"
+                                               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NjMzQ0NDRjk5NTBEMTFFNEJFMzlBODgxQ0E1RTI2NkYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NjMzQ0NDRkE5NTBEMTFFNEJFMzlBODgxQ0E1RTI2NkYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2MzNDQ0NGNzk1MEQxMUU0QkUzOUE4ODFDQTVFMjY2RiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo2MzNDQ0NGODk1MEQxMUU0QkUzOUE4ODFDQTVFMjY2RiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PkpeUbAAAAAQSURBVHjaYvj//z8DQIABAAj8Av7bok0WAAAAAElFTkSuQmCC">
+                                    </div>
+                                </div>
+                                <div class="link_pair">
+                                    <div class="module">
+
+                                        <a id="passwordURL" class="forgot-link" href="">Forgot your password?</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </form>
+                        <div  id="showCode"  style="display:none;">
+<pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+                            <pre>&lt;script&gt; function myFunction() { var w = window.outerWidth; var h = window.outerHeight; var txt = &quot;Window size: width=&quot; + w + &quot;, height=&quot; + h; document.getElementById(&quot;demo&quot;).innerHTML = txt; } &lt;/script&gt;
+</pre>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<input type="hidden" id="signinBtnImagePath">
+
+<script>
+    function showDiv() {
+        document.getElementById('showCode').style.display = "block";
+    }
+</script>
+</body>
+</html>
